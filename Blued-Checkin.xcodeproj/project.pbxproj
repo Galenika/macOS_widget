@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		936313C01F7B4648000E8967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936313BF1F7B4648000E8967 /* AppDelegate.swift */; };
+		936313C21F7B4648000E8967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936313C11F7B4648000E8967 /* ViewController.swift */; };
+		936313C71F7B4648000E8967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936313C51F7B4648000E8967 /* Main.storyboard */; };
+		936313D01F7BB928000E8967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936313CF1F7BB928000E8967 /* Assets.xcassets */; };
+		9E8B13A26C5B5C9E860CBBA1 /* Pods_Blued_Checkin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33979095DF135114A26EFA1 /* Pods_Blued_Checkin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86919D59D2CF012931620A3B /* Pods-Blued-Checkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blued-Checkin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blued-Checkin/Pods-Blued-Checkin.release.xcconfig"; sourceTree = "<group>"; };
+		936313BC1F7B4648000E8967 /* Blued-Checkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blued-Checkin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		936313BF1F7B4648000E8967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		936313C11F7B4648000E8967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		936313C61F7B4648000E8967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		936313C81F7B4648000E8967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936313C91F7B4648000E8967 /* Blued_Checkin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Blued_Checkin.entitlements; sourceTree = "<group>"; };
+		936313CF1F7BB928000E8967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA1721157E5DB2F355CF44C5 /* Pods-Blued-Checkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blued-Checkin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blued-Checkin/Pods-Blued-Checkin.debug.xcconfig"; sourceTree = "<group>"; };
+		E33979095DF135114A26EFA1 /* Pods_Blued_Checkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blued_Checkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		936313B91F7B4648000E8967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8B13A26C5B5C9E860CBBA1 /* Pods_Blued_Checkin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		936313B31F7B4648000E8967 = {
+			isa = PBXGroup;
+			children = (
+				936313BE1F7B4648000E8967 /* Blued-Checkin */,
+				936313BD1F7B4648000E8967 /* Products */,
+				F90D9A6935F52A035B0FF5CF /* Pods */,
+				F1BAE1D7FAAEF4EC3C69D12B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		936313BD1F7B4648000E8967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				936313BC1F7B4648000E8967 /* Blued-Checkin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		936313BE1F7B4648000E8967 /* Blued-Checkin */ = {
+			isa = PBXGroup;
+			children = (
+				936313BF1F7B4648000E8967 /* AppDelegate.swift */,
+				936313C11F7B4648000E8967 /* ViewController.swift */,
+				936313C51F7B4648000E8967 /* Main.storyboard */,
+				936313C81F7B4648000E8967 /* Info.plist */,
+				936313C91F7B4648000E8967 /* Blued_Checkin.entitlements */,
+				936313CF1F7BB928000E8967 /* Assets.xcassets */,
+			);
+			path = "Blued-Checkin";
+			sourceTree = "<group>";
+		};
+		F1BAE1D7FAAEF4EC3C69D12B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E33979095DF135114A26EFA1 /* Pods_Blued_Checkin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F90D9A6935F52A035B0FF5CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA1721157E5DB2F355CF44C5 /* Pods-Blued-Checkin.debug.xcconfig */,
+				86919D59D2CF012931620A3B /* Pods-Blued-Checkin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		936313BB1F7B4648000E8967 /* Blued-Checkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936313CC1F7B4648000E8967 /* Build configuration list for PBXNativeTarget "Blued-Checkin" */;
+			buildPhases = (
+				2884A315E1BDA95D0FD104C1 /* [CP] Check Pods Manifest.lock */,
+				936313B81F7B4648000E8967 /* Sources */,
+				936313B91F7B4648000E8967 /* Frameworks */,
+				936313BA1F7B4648000E8967 /* Resources */,
+				28BCC766DF48573D1D998271 /* [CP] Embed Pods Frameworks */,
+				98B64C332050AF7D36947BC5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blued-Checkin";
+			productName = "Blued-Checkin";
+			productReference = 936313BC1F7B4648000E8967 /* Blued-Checkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		936313B41F7B4648000E8967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lxc;
+				TargetAttributes = {
+					936313BB1F7B4648000E8967 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 936313B71F7B4648000E8967 /* Build configuration list for PBXProject "Blued-Checkin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 936313B31F7B4648000E8967;
+			productRefGroup = 936313BD1F7B4648000E8967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				936313BB1F7B4648000E8967 /* Blued-Checkin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		936313BA1F7B4648000E8967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936313D01F7BB928000E8967 /* Assets.xcassets in Resources */,
+				936313C71F7B4648000E8967 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2884A315E1BDA95D0FD104C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		28BCC766DF48573D1D998271 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blued-Checkin/Pods-Blued-Checkin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B64C332050AF7D36947BC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blued-Checkin/Pods-Blued-Checkin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		936313B81F7B4648000E8967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936313C21F7B4648000E8967 /* ViewController.swift in Sources */,
+				936313C01F7B4648000E8967 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		936313C51F7B4648000E8967 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				936313C61F7B4648000E8967 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		936313CA1F7B4648000E8967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		936313CB1F7B4648000E8967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		936313CD1F7B4648000E8967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1721157E5DB2F355CF44C5 /* Pods-Blued-Checkin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Blued-Checkin/Blued_Checkin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 24UV6VXUR4;
+				INFOPLIST_FILE = "Blued-Checkin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxc.org.checkin.Blued-Checkin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		936313CE1F7B4648000E8967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86919D59D2CF012931620A3B /* Pods-Blued-Checkin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Blued-Checkin/Blued_Checkin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 24UV6VXUR4;
+				INFOPLIST_FILE = "Blued-Checkin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxc.org.checkin.Blued-Checkin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		936313B71F7B4648000E8967 /* Build configuration list for PBXProject "Blued-Checkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936313CA1F7B4648000E8967 /* Debug */,
+				936313CB1F7B4648000E8967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936313CC1F7B4648000E8967 /* Build configuration list for PBXNativeTarget "Blued-Checkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936313CD1F7B4648000E8967 /* Debug */,
+				936313CE1F7B4648000E8967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 936313B41F7B4648000E8967 /* Project object */;
+}

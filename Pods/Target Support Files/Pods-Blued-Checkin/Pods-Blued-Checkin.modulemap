@@ -1,0 +1,6 @@
+framework module Pods_Blued_Checkin {
+  umbrella header "Pods-Blued-Checkin-umbrella.h"
+
+  export *
+  module * { export * }
+}
